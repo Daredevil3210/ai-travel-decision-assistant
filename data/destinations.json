@@ -1,0 +1,98 @@
+{
+  "杭州": {
+    "latitude": 30.2741,
+    "longitude": 120.1551,
+    "hotel_base_price": {"economy": 220, "comfort": 380, "premium": 650, "luxury": 1200},
+    "meal_daily_price": {"budget": 100, "standard": 180, "premium": 350},
+    "attractions": [
+      {"name": "西湖", "categories": ["自然", "摄影", "散步"], "estimated_hours": 4, "ticket_price": 0},
+      {"name": "灵隐寺", "categories": ["历史", "文化", "建筑"], "estimated_hours": 3, "ticket_price": 75},
+      {"name": "中国茶叶博物馆", "categories": ["文化", "亲子", "室内"], "estimated_hours": 2, "ticket_price": 0},
+      {"name": "西溪国家湿地公园", "categories": ["自然", "亲子", "摄影"], "estimated_hours": 4, "ticket_price": 80}
+    ]
+  },
+  "上海": {
+    "latitude": 31.2304,
+    "longitude": 121.4737,
+    "hotel_base_price": {"economy": 300, "comfort": 520, "premium": 900, "luxury": 1800},
+    "meal_daily_price": {"budget": 130, "standard": 230, "premium": 450},
+    "attractions": [
+      {"name": "外滩", "categories": ["城市", "摄影", "夜景"], "estimated_hours": 3, "ticket_price": 0},
+      {"name": "上海博物馆", "categories": ["历史", "文化", "室内"], "estimated_hours": 3, "ticket_price": 0},
+      {"name": "豫园", "categories": ["历史", "建筑", "美食"], "estimated_hours": 3, "ticket_price": 40},
+      {"name": "上海迪士尼度假区", "categories": ["亲子", "乐园", "娱乐"], "estimated_hours": 10, "ticket_price": 475}
+    ]
+  },
+  "北京": {
+    "latitude": 39.9042,
+    "longitude": 116.4074,
+    "hotel_base_price": {"economy": 280, "comfort": 480, "premium": 850, "luxury": 1700},
+    "meal_daily_price": {"budget": 120, "standard": 220, "premium": 420},
+    "attractions": [
+      {"name": "故宫博物院", "categories": ["历史", "文化", "建筑"], "estimated_hours": 5, "ticket_price": 60},
+      {"name": "天坛公园", "categories": ["历史", "建筑", "摄影"], "estimated_hours": 3, "ticket_price": 34},
+      {"name": "颐和园", "categories": ["历史", "自然", "建筑"], "estimated_hours": 5, "ticket_price": 30},
+      {"name": "中国国家博物馆", "categories": ["历史", "文化", "室内"], "estimated_hours": 4, "ticket_price": 0}
+    ]
+  },
+  "南京": {
+    "latitude": 32.0603,
+    "longitude": 118.7969,
+    "hotel_base_price": {"economy": 210, "comfort": 360, "premium": 620, "luxury": 1100},
+    "meal_daily_price": {"budget": 100, "standard": 180, "premium": 330},
+    "attractions": [
+      {"name": "中山陵", "categories": ["历史", "自然", "建筑"], "estimated_hours": 4, "ticket_price": 0},
+      {"name": "南京博物院", "categories": ["历史", "文化", "室内"], "estimated_hours": 4, "ticket_price": 0},
+      {"name": "夫子庙秦淮风光带", "categories": ["历史", "美食", "夜景"], "estimated_hours": 4, "ticket_price": 0},
+      {"name": "明孝陵", "categories": ["历史", "自然", "摄影"], "estimated_hours": 3, "ticket_price": 70}
+    ]
+  },
+  "苏州": {
+    "latitude": 31.2989,
+    "longitude": 120.5853,
+    "hotel_base_price": {"economy": 220, "comfort": 380, "premium": 680, "luxury": 1200},
+    "meal_daily_price": {"budget": 100, "standard": 190, "premium": 360},
+    "attractions": [
+      {"name": "拙政园", "categories": ["历史", "建筑", "摄影"], "estimated_hours": 3, "ticket_price": 80},
+      {"name": "苏州博物馆", "categories": ["文化", "建筑", "室内"], "estimated_hours": 3, "ticket_price": 0},
+      {"name": "平江路", "categories": ["历史", "美食", "散步"], "estimated_hours": 3, "ticket_price": 0},
+      {"name": "虎丘", "categories": ["历史", "自然", "摄影"], "estimated_hours": 3, "ticket_price": 70}
+    ]
+  },
+  "成都": {
+    "latitude": 30.5728,
+    "longitude": 104.0668,
+    "hotel_base_price": {"economy": 200, "comfort": 350, "premium": 600, "luxury": 1100},
+    "meal_daily_price": {"budget": 100, "standard": 180, "premium": 350},
+    "attractions": [
+      {"name": "成都大熊猫繁育研究基地", "categories": ["亲子", "动物", "摄影"], "estimated_hours": 5, "ticket_price": 55},
+      {"name": "武侯祠", "categories": ["历史", "文化", "建筑"], "estimated_hours": 3, "ticket_price": 50},
+      {"name": "杜甫草堂", "categories": ["历史", "文化", "自然"], "estimated_hours": 3, "ticket_price": 50},
+      {"name": "宽窄巷子", "categories": ["美食", "历史", "散步"], "estimated_hours": 3, "ticket_price": 0}
+    ]
+  },
+  "西安": {
+    "latitude": 34.3416,
+    "longitude": 108.9398,
+    "hotel_base_price": {"economy": 200, "comfort": 360, "premium": 650, "luxury": 1200},
+    "meal_daily_price": {"budget": 100, "standard": 180, "premium": 350},
+    "attractions": [
+      {"name": "秦始皇帝陵博物院", "categories": ["历史", "文化", "室内"], "estimated_hours": 5, "ticket_price": 120},
+      {"name": "西安城墙", "categories": ["历史", "建筑", "摄影"], "estimated_hours": 4, "ticket_price": 54},
+      {"name": "陕西历史博物馆", "categories": ["历史", "文化", "室内"], "estimated_hours": 4, "ticket_price": 0},
+      {"name": "大唐不夜城", "categories": ["夜景", "文化", "娱乐"], "estimated_hours": 3, "ticket_price": 0}
+    ]
+  },
+  "广州": {
+    "latitude": 23.1291,
+    "longitude": 113.2644,
+    "hotel_base_price": {"economy": 230, "comfort": 400, "premium": 720, "luxury": 1400},
+    "meal_daily_price": {"budget": 110, "standard": 210, "premium": 400},
+    "attractions": [
+      {"name": "广州塔", "categories": ["城市", "夜景", "摄影"], "estimated_hours": 3, "ticket_price": 150},
+      {"name": "广东省博物馆", "categories": ["文化", "历史", "室内"], "estimated_hours": 3, "ticket_price": 0},
+      {"name": "陈家祠", "categories": ["历史", "建筑", "文化"], "estimated_hours": 2, "ticket_price": 10},
+      {"name": "沙面岛", "categories": ["建筑", "摄影", "散步"], "estimated_hours": 3, "ticket_price": 0}
+    ]
+  }
+}
